@@ -167,7 +167,7 @@ See `CONTRIBUTING.md` for details.
 
 **Feedback channels:**
 - GitHub Issues (coming soon)
-- Blog comments at [tamim.blog](https://tamim.blog)
+- Blog comments at [tamim.blog](https://tamim.blog/post/ai-memory-system-mika/)
 - Direct feedback welcome
 
 ---

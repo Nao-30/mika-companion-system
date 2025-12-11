@@ -208,7 +208,7 @@ sessions/
 
 - **Documentation issues**: Check CONTRIBUTING.md
 - **Technical problems**: Open an issue (if on GitHub)
-- **Sharing experiences**: [tamim.blog](https://tamim.blog) comments
+- **Sharing experiences**: [tamim.blog](https://tamim.blog/post/ai-memory-system-mika/) comments
 
 ---
 

@@ -64,7 +64,7 @@ Before submitting, try it:
 ## Feedback Channels
 
 - **GitHub Issues**: Bug reports, feature requests
-- **Blog Comments**: [tamim.blog](https://tamim.blog) - narratives and experiences
+- **Blog Comments**: [tamim.blog](https://tamim.blog/post/ai-memory-system-mika/) - narratives and experiences
 - **Pull Requests**: Code and doc improvements
 
 ## Credit
