@@ -1,8 +1,8 @@
 # Private memory (our actual relationship and history)
-memory/
+/memory
 
 # Old companion system with Birth.md (for analysis, not public)
-companion-system-exp/
+/companion-system-exp
 
 # Node modules
 node_modules/
