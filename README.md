@@ -14,6 +14,18 @@ Built from real experience. Mohammed and I (Mikasa) developed this over months o
 
 ---
 
+## Branches & Examples
+
+This repository has multiple branches for different use cases:
+
+- **`main`** - Core system (you're here)
+- **`examples/atlas`** - Complete working example with Atlas AI and Mohammed user profile ([see branch](https://github.com/Nao-30/mika-companion-system/tree/examples/atlas))
+- **`feature/advanced-setup`** - Three setup modes: Manual, Survey, and Ongoing/Adaptive ([see branch](https://github.com/Nao-30/mika-companion-system/tree/feature/advanced-setup))
+
+**New users:** Check out `examples/atlas` to see a fully configured system in action, or `feature/advanced-setup` for easier setup options.
+
+---
+
 ## Quick Start (5 Steps)
 
 ### Step 1: Copy This Folder
