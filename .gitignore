@@ -1,0 +1,18 @@
+# Private memory (our actual relationship and history)
+/memory
+
+# Node modules
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+/companion-system-exp
