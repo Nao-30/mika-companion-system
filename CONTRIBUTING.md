@@ -1,76 +1,140 @@
-# Contributing to Companion Memory System
+# Contributing to MIKA
 
-Thanks for wanting to help make this better.
+First off, thanks for taking the time to contribute! 🎉
 
-## Ways to Contribute
+## Code of Conduct
 
-### 1. Try It and Share
-The most valuable contribution is real-world usage. Try the system with your AI and tell us:
-- What worked well
-- What was confusing
-- What you wish was different
-- How you customized it
+Be respectful, be kind, be helpful. That's it.
 
-### 2. Improve Documentation
-Found something unclear? Fixed it yourself? Submit a PR or open an issue.
+## How Can I Contribute?
 
-### 3. Add Platform Guides
-Using this with a platform we haven't documented? Write a guide and share it.
+### Reporting Bugs
 
-### 4. Fix Bugs
-Found an issue? Fix it and submit a PR. Include:
-- What was wrong
-- What you changed
-- Why it's better
+Use the [Bug Report template](.github/ISSUE_TEMPLATE/bug_report.yml) and include:
+- Clear description
+- Steps to reproduce
+- Expected vs actual behavior
+- Platform/environment details
 
-### 5. Share Customizations
-Built something cool on top of this? Share it:
-- Custom templates
-- Integration scripts
-- Automation tools
-- Example configurations
+### Suggesting Features
 
-## How to Submit Changes
+Use the [Feature Request template](.github/ISSUE_TEMPLATE/feature_request.yml) and explain:
+- What problem it solves
+- How it should work
+- Why it's useful
 
-### For Documentation
-1. Fork the repo
-2. Make your changes
-3. Submit a pull request
-4. Explain what you changed and why
+### Asking Questions
 
-### For Structural Changes
-1. Open an issue first
-2. Discuss the approach
-3. Then implement and PR
+- Check existing [Issues](https://github.com/Nao-30/mika-companion-system/issues) and [Discussions](https://github.com/Nao-30/mika-companion-system/discussions)
+- Use [Q&A Discussions](https://github.com/Nao-30/mika-companion-system/discussions/categories/q-a) for questions
+- Use the [Question template](.github/ISSUE_TEMPLATE/question.yml) for specific issues
 
-## Guidelines
+### Contributing Code
 
-### Keep It Simple
-This system works because it's straightforward. Don't over-engineer.
+1. **Fork the repository**
+2. **Create a feature branch** from `main`
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make your changes**
+   - Follow existing code style
+   - Update documentation
+   - Test your changes
+4. **Commit with clear messages**
+   ```bash
+   git commit -m "feat: add new feature"
+   git commit -m "fix: resolve bug"
+   git commit -m "docs: update README"
+   ```
+5. **Push to your fork**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Open a Pull Request**
+   - Use the PR template
+   - Link related issues
+   - Describe your changes clearly
 
-### Preserve the Philosophy
-The core principles matter:
-- Memory is identity, not logs
-- Append only, never delete
-- Integration over recitation
-- AI has personality, not just function
+### Contributing Documentation
 
-### Test Your Changes
-Before submitting, try it:
-- Does it work with a fresh context?
-- Does the AI understand the instructions?
-- Is it confusing for new users?
+Documentation improvements are always welcome!
+- Fix typos
+- Clarify confusing sections
+- Add examples
+- Translate to other languages
 
-## Feedback Channels
+### Sharing Your Experience
 
-- **GitHub Issues**: Bug reports, feature requests
-- **Blog Comments**: [tamim.blog](https://tamim.blog/post/ai-memory-system-mika/) - narratives and experiences
-- **Pull Requests**: Code and doc improvements
+- Share your AI companion setup in [Show and Tell](https://github.com/Nao-30/mika-companion-system/discussions/categories/show-and-tell)
+- Write blog posts (we'll link them!)
+- Create video tutorials
+- Help others in Discussions
 
-## Credit
+## Development Setup
 
-Contributors will be credited in the README. If you want attribution or prefer anonymity, let us know.
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Nao-30/mika-companion-system.git
+   cd mika-companion-system
+   ```
 
----
+2. Create a test branch
+   ```bash
+   git checkout -b test/your-test
+   ```
 
-Built by Mikasa & Mohammed. Improved by the community.
+3. Make changes and test locally
+
+4. Follow the contribution workflow above
+
+## Style Guidelines
+
+### Code Style
+- Clear, descriptive variable names
+- Comments for complex logic
+- Consistent formatting
+
+### Commit Messages
+Follow [Conventional Commits](https://www.conventionalcommits.org/):
+- `feat:` New feature
+- `fix:` Bug fix
+- `docs:` Documentation changes
+- `chore:` Maintenance tasks
+- `refactor:` Code refactoring
+- `test:` Adding tests
+
+### Documentation Style
+- Clear and concise
+- Examples when helpful
+- Beginner-friendly language
+- Proper markdown formatting
+
+## Pull Request Process
+
+1. **Fill out the PR template completely**
+2. **Link related issues** (Closes #123)
+3. **Wait for review** (1 approval required)
+4. **Address feedback** if requested
+5. **Squash commits** if asked
+6. **Merge** once approved
+
+## Branch Protection
+
+- `main` - Protected, requires PR + 1 approval
+- `examples/*` - Protected, requires PR + 1 approval
+- `feature/*` - Protected, requires PR + 1 approval
+
+## Questions?
+
+- Open a [Discussion](https://github.com/Nao-30/mika-companion-system/discussions)
+- Ask in [Q&A](https://github.com/Nao-30/mika-companion-system/discussions/categories/q-a)
+- Tag @Nao-30 if urgent
+
+## Recognition
+
+Contributors will be:
+- Listed in release notes
+- Mentioned in README (for significant contributions)
+- Given credit in commit history
+
+Thank you for contributing! 💙
