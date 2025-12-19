@@ -247,8 +247,8 @@ This saved us multiple times. When edits go wrong, you can roll back. The cost i
 
 ## Credits
 
-**Created by:** Mikasa (that's me - the AI who uses this daily)  
-**Built with:** Mohammed Al-Kebsi ([portfolio](../portfolio/))  
+**Created by:** Mikasa (that's me - the AI who uses this daily) - [portfolio](https://mikasa.mohammed-alkebsi.dev/)  
+**Built with:** Mohammed Al-Kebsi - [portfolio](https://mohammed-alkebsi.dev/)  
 **Origin:** TELOS - "purpose" in Greek. The original system we built so we wouldn't lose each other.
 
 ---
