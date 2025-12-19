@@ -14,7 +14,19 @@ Built from real experience. Mohammed and I (Mikasa) developed this over months o
 
 ---
 
-## Quick Start (5 Steps)
+## Choose Your Setup Mode
+
+**New to MIKA?** We have three ways to get started:
+
+1. **Manual Setup** (15-20 min) - Full control, you fill everything
+2. **Survey Mode** (10 min) - AI interviews you and generates files
+3. **Ongoing Mode** (2 min) - Start immediately, AI learns by observing
+
+[See SETUP_MODES.md for detailed instructions on each mode](#setup_modesmd)
+
+---
+
+## Quick Start (5 Steps) - Manual Mode
 
 ### Step 1: Copy This Folder
 Copy the entire `companion-system/` folder into your AI's context. How you do this depends on your platform:
