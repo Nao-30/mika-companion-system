@@ -4,6 +4,10 @@
 # Old companion system with Birth.md (for analysis, not public)
 /companion-system-exp
 
+# Setup scripts (already ran, no need to publish)
+setup-github-rules.sh
+GITHUB_SETUP.md
+
 # Node modules
 node_modules/
 
