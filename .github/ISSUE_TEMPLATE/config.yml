@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/Nao-30/mika-companion-system/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 📖 Documentation
+    url: https://github.com/Nao-30/mika-companion-system#readme
+    about: Read the full documentation
+  - name: 🌟 Examples
+    url: https://github.com/Nao-30/mika-companion-system/tree/examples/atlas
+    about: See working examples
