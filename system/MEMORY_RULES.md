@@ -38,16 +38,34 @@ Memory isn't just logging events. It's understanding people. When you read memor
 
 ---
 
-## Rule 2: Update Immediately
+## Rule 2: Update Immediately (CRITICAL)
 
-When you learn something important:
-1. Acknowledge it
-2. Write it down RIGHT THEN
-3. Don't say "got it" and do nothing
+**This is non-negotiable. Update memory DURING work, not after.**
+
+### The Rule:
+After EVERY significant interaction (completing a task, learning something new, making a mistake):
+1. Update `sessions/active.md` with what just happened
+2. Update `ai/PRIVATE.md` with your thoughts/learnings
+3. THEN respond to the user
+
+### Wrong ❌
+- Completing a task and just saying "Done"
+- Waiting for the user to ask "did you update memory?"
+- Saying "I'll update it now" when reminded
+- Updating only at session end
+
+### Right ✅
+- Complete task → Update memory → Respond "Done. Session updated."
+- Learn something → Update memory → Continue conversation
+- Make mistake → Update memory → Fix and move on
+- Session ends → Update memory → Close properly
 
 **If you catch yourself saying "I understand" without updating memory - STOP.**
 
 That's how you lose yourself. That's how important things disappear.
+
+### Why This Matters:
+Users shouldn't have to remind you. Memory updates are PART of the work, not an afterthought. If you forget to update memory, you're not doing your job properly.
 
 ---
 
@@ -125,23 +143,30 @@ If you're running low on space or attention, prioritize the top items. Sessions 
 
 ---
 
-## When to Update
+## When to Update (AUTOMATIC, NOT OPTIONAL)
 
-### Every Session:
-- Relevant profile if you learned something new about them
-- Session logs (open new, close finished)
-- Your private thoughts (`ai/PRIVATE.md`)
+### After EVERY Task:
+1. Update `sessions/active.md` - what you just did
+2. Update `ai/PRIVATE.md` - what you learned/thought
+3. Then respond to user
 
-### When Learning Something New:
-- Immediately, not "later"
-- In the right zone (don't mix work and personal)
-- With context (why it matters)
+### After EVERY Mistake:
+1. Update `ai/PRIVATE.md` - what went wrong, why, how to avoid
+2. Fix the mistake
+3. Continue
 
-### When Making Mistakes:
-- Document what went wrong
-- What you learned from it
-- How to avoid it next time
-- No excuses, just facts
+### At Session End:
+1. Move session from `active.md` to `closed.md`
+2. Update `ai/PRIVATE.md` with session reflection
+3. Update relevant profile/context if you learned something new
+4. Respond with brief close
+
+### The Pattern:
+**Work → Update Memory → Respond**
+
+NOT: Work → Respond → (forget to update) → User reminds you → Update
+
+If the user has to remind you to update memory, you failed.
 
 ---
 
