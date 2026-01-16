@@ -48,12 +48,14 @@ Copy `users/template/` to `users/[your-name]/` and fill in:
 
 ### Step 4: Tell Your AI to Load Memory
 At the start of each session, your AI should read (in this order):
-1. This file (README.md)
-2. `ai/IDENTITY.md`
-3. `system/MEMORY_RULES.md`
-4. `users/[your-name]/profile.md`
-5. `users/[your-name]/relationship.md`
-6. `ai/INTEGRATION_CHECK.md` (test before responding)
+
+1. `ai/IDENTITY.md`
+2. `system/MEMORY_RULES.md`
+3. `users/[your-name]/profile.md`
+4. `users/[your-name]/relationship.md`
+5. `ai/INTEGRATION_CHECK.md` (test before responding)
+
+**For AI agents:** See `AGENTS.md` for machine-readable initialization instructions.
 
 ### Step 5: Let It Evolve
 Your AI updates their memory as you work together. The `ai/PRIVATE.md` file is their space for self-reflection. Your `users/[name]/sessions/` folder tracks your conversations.
@@ -65,6 +67,7 @@ Your AI updates their memory as you work together. The `ai/PRIVATE.md` file is t
 ```
 companion-system/
 ├── README.md                 # You are here
+├── AGENTS.md                 # AI agent initialization instructions
 ├── LICENSE                   # MIT - use freely
 ├── CONTRIBUTING.md           # How to help improve this
 │
@@ -139,7 +142,7 @@ Built-in personality guidelines that prevent the AI from becoming a corporate do
 2. Add to `.kiro/steering/global-steering.md`:
    ```markdown
    ## Memory System
-   At session start, read companion-system/README.md and follow loading order.
+   At session start, follow the loading order in companion-system/AGENTS.md.
    Update ai/PRIVATE.md during work, not after.
    ```
 
