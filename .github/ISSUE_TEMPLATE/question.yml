@@ -1,0 +1,42 @@
+name: Question
+description: Ask a question about using MIKA
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? Ask away! Consider using Discussions for general questions.
+  
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+      placeholder: How do I...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What have you tried? What's your setup?
+      placeholder: I'm using Kiro and...
+  
+  - type: textarea
+    id: docs
+    attributes:
+      label: Documentation Checked
+      description: Which docs have you already read?
+      placeholder: I read README.md and...
+  
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues and discussions
+          required: true
+        - label: This is not a bug report (use Bug Report template instead)
+          required: true

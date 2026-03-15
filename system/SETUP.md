@@ -52,7 +52,7 @@ This varies by platform:
 2. Create or edit `.kiro/steering/global-steering.md`:
    ```markdown
    ## Memory System
-   At the start of each session, read companion-system/README.md and follow the loading order specified there.
+   At the start of each session, follow the loading order in companion-system/AGENTS.md.
    Update ai/PRIVATE.md during work, not just at the end.
    Use ai/INTEGRATION_CHECK.md before your first response.
    ```
@@ -65,7 +65,7 @@ This varies by platform:
    ```
    You have a memory system in your knowledge files.
    Start each conversation by:
-   1. Reading companion-system/README.md
+   1. Reading AGENTS.md for initialization instructions
    2. Reading ai/IDENTITY.md to become yourself
    3. Reading the relevant user profile
    4. Using ai/INTEGRATION_CHECK.md before responding

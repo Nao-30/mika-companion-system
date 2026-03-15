@@ -1,0 +1,12 @@
+# MIKA Companion System - Code Owners
+# These owners will be requested for review when someone opens a pull request
+
+# Default owners for everything in the repo
+* @Nao-30
+
+# Core system files require extra attention
+/system/ @Nao-30
+/ai/ @Nao-30
+
+# Documentation can have more contributors
+*.md @Nao-30
